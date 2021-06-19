@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Gpa Calculator</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1 class="heading">Grade Calculator</h1>
+    </div>
+    <div class="content">
+        <p id="theory">Theory</p>
+        <p>Enter Sessional score (0-30) and Assignment score (0-20)</p>
+        <div class="sub_container">
+            <div class="sub">
+                <div id="sub_Name">EEFM <small>(3 credits)</small></div>
+                <hr>
+                <p>Sessional</p>
+                <input type="number" name="" id="a">
+                <p>Assignment</p>
+                <input type="number" name="" id="b">
+            </div>
+            <div class="sub">
+                <div id="sub_Name">PDT <small>(3 credits)</small></div>
+                <hr>
+                <p>Sessional</p>
+                <input type="number" name="" id="c">
+                <p>Assignment</p>
+                <input type="number" name="" id="d">
+            </div>
+            <div class="sub">
+                <div id="sub_Name">PE-1 <small>(3 credits)</small></div>
+                <hr>
+                <p>Sessional</p>
+                <input type="number" name="" id="e">
+                <p>Assignment</p>
+                <input type="number" name="" id="f">
+            </div>
+            <div class="sub">
+                <div id="sub_Name">PE-2 <small>(3 credits)</small></div>
+                <hr>
+                <p>Sessional</p>
+                <input type="number" name="" id="g">
+                <p>Assignment</p>
+                <input type="number" name="" id="h">
+            </div>
+            <div class="sub">
+                <div id="sub_Name">VP <small>(4 credits)</small></div>
+                <hr>
+                <p>Sessional</p>
+                <input type="number" name="" id="i">
+                <p>Assignment</p>
+                <input type="number" name="" id="j">
+            </div>
+        </div>
+        <p id="theory">Lab</p>
+        <p>Enter lab score (0-100)</p>
+        <div class="sub_container">
+            <div class="sub lab_sub">
+                <div id="sub_Name">BP LAB </div>
+                <hr>
+                <p>Total Marks</p>
+                <input type="number" name="" id="k">
+            </div>
+            <div class="sub lab_sub">
+                <div id="sub_Name">VP LAB</div>
+                <hr>
+                <p>Total Marks</p>
+                <input type="number" name="" id="l">
+            </div>
+        </div>
+        <p id="theory">Enter CGPA After 4TH SEM </p>
+        <div class="Enter_cgpa">
+            <input type="number" id="cgpa">
+        </div>
+    </div>
+    <div class="btn_container">
+        <button id="btn_Result">Get Results</button>
+    </div>
+    <div id="result_incoming"></div>
+</body>
+<script src="index.js"></script>
+
+</html>
